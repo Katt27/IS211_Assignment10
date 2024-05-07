@@ -32,18 +32,21 @@ Clone this repository to your local machine using:
 git clone https://github.com/<your-username>/IS211_Assignment10.git
 cd IS211_Assignment10
 
-###Files
+Files
+
 music.sql: SQL script to create the music database schema.
 load_pets.py: Python script to load data into the pets database.
 query_pets.py: Python script to query the pets database based on user input.
 
-###Usage
+Usage
+
 Creating the Music Database
 Run the following command to create your music database using SQLite:
 
 sqlite3 music.db < music.sql
 
-###Running the Python Scripts
+Running the Python Scripts
+
 To load data into the pets database, run:
 python load_pets.py
 
